@@ -54,3 +54,9 @@ Save this value for later
         1. Enter Block Title: What’s for dinner?
         2. Select show for the Block Title
    * Click Save
+
+
+
+## References I used
+* https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-create-api-as-simple-proxy-for-lambda.html
+* https://community.home-assistant.io/t/paprika-recipe-app-integration-whats-for-dinner-tonight/707405
