@@ -28,7 +28,7 @@ Save this value for later
 8. Choose Create function.
 9. Create a file under GETTODAYSMEAL:  index.js
 10. Delete the file index.mjs
-11. In the index.js copy the following code.
+11. In the index.js copy the code from index.js
 12. Replace the XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX after Authorization': 'Bearer with you token from above
 13. Click Deploy
 14. Click on the Function URL
