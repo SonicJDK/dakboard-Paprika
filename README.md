@@ -1,16 +1,18 @@
-**Create a Free AWS Account:**
+This is how I created an AWS lambda function to get meal information from the Praprika app service to display on Dakboard
+
+## Create a Free AWS Account
 https://aws.amazon.com/free
 
-**Get an authentication token from Paprika:**
-In a command prompt
-curl -X POST https://paprikaapp.com/api/v1/account/login --data-urlencode ‘email=MY_EMAIL’ --data-urlencode ‘password=MY_PAPRIKA_PASSWORD’
+## Get an authentication token from Paprika
+* In a command prompt
+* curl -X POST https://paprikaapp.com/api/v1/account/login --data-urlencode ‘email=MY_EMAIL’ --data-urlencode ‘password=MY_PAPRIKA_PASSWORD’
 
 You should get a response like this:
 {"result":{"token":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx”}}%   
 
 Save this value for later
 
-**Create a Lambda function in AWS**
+## Create a Lambda function in AWS**
 1. Sign in to the Lambda console at https://console.aws.amazon.com/lambda.
 2. On the AWS navigation bar, choose an AWS Region
 3. Choose Functions in the navigation pane.
@@ -34,7 +36,7 @@ Save this value for later
     2. You should see the response: {"today":"Nothing is planned","tomorrow":"Nothing is planned"}
 15. If you get the correct response: Copy the Functional URL
 
-**Add a block to your Dakboard**
+## Add a block to your Dakboard
 1. Log in to your Dakboard account
 2. Go to the Screen you want to use
 3. Click Add A Block
