@@ -12,7 +12,7 @@ You should get a response like this:
 
 Save this value for later
 
-## Create a Lambda function in AWS**
+## Create a Lambda function in AWS
 1. Sign in to the Lambda console at https://console.aws.amazon.com/lambda.
 2. On the AWS navigation bar, choose an AWS Region
 3. Choose Functions in the navigation pane.
